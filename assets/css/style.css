@@ -368,6 +368,5 @@ label[for="search"] {
 	
 	#navbar-left #icon-youtube {
 		display: block;
-		width: calc(var(--icon-default-width) * 2.2);
 	}
 }
