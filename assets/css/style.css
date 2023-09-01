@@ -12,7 +12,7 @@
 	--secondary-text-color: #515151;
 
 	--video-width: 64vw;
-	--icon-default-width: 2.4rem;
+	--icon-default-width: 2rem;
 }
 
 * {
@@ -201,7 +201,7 @@ label[for="search"] {
 	justify-content: center;
 	align-items: center;
 	flex-grow: 2;
-	
+
 	border-radius: 1rem;
 	background: var(--main-highlight);
 	color: #fff;
@@ -365,8 +365,13 @@ label[for="search"] {
 	#navbar-left #youtube-logo {
 		display: none;
 	}
-	
+
 	#navbar-left #icon-youtube {
 		display: block;
+		width: calc(var(--icon-default-width) * 3);
+	}
+
+	#icon-menu {
+		width: calc(var(--icon-default-width) / 1.1);
 	}
 }

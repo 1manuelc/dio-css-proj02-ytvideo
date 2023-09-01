@@ -12,7 +12,7 @@
 	--secondary-text-color: #c2c2c2;
 
 	--video-width: 64vw;
-	--icon-default-width: 2.4rem;
+	--icon-default-width: 2rem;
 }
 
 * {
@@ -378,6 +378,10 @@ label[for="search"] {
 	
 	#navbar-left #icon-youtube {
 		display: block;
-		width: calc(var(--icon-default-width) * 2.2);
+		width: calc(var(--icon-default-width) * 3);
+	}
+
+	#icon-menu {
+		width: calc(var(--icon-default-width) / 1.1);
 	}
 }
