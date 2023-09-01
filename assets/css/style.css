@@ -60,6 +60,10 @@ header nav {
 	width: calc(var(--icon-default-width) * 5);
 }
 
+#navbar-left #icon-youtube {
+	display: none;
+}
+
 #navbar-center,
 #navbar-center #search-bar {
 	display: flex;
@@ -354,5 +358,16 @@ label[for="search"] {
 			"primary"
 			"secondary";
 		gap: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 728px) {
+	#navbar-left #youtube-logo {
+		display: none;
+	}
+	
+	#navbar-left #icon-youtube {
+		display: block;
+		width: calc(var(--icon-default-width) * 2.2);
 	}
 }
