@@ -1,4 +1,4 @@
-# [Deploy atualizado](https://1manuelc.github.io/dio-css-projeto02/)
+# [Deploy atualizado](https://1manuelc.github.io/dio-css-proj02-ytvideo/)
 # dio-css-projeto02
 Projeto proposto no módulo 02 da Formação CSS Web Developer da DIO, como forma de validar os conhecimentos em estilizações básicas e organização de layout com Flexbox.
 
